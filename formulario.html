@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cadastro de Contrato</title>
+
+    <link rel="stylesheet" type="text/css" href="formulario.css">
+
+</head>
+    <body>
+       
+        <div class="titulo">
+            <h1 id="titulo">Cadastro de Contratos</h1>
+        </div>
+        <br>
+         
+        <div class="titulo">
+            <p id="subtitulo"><strong>Informações do Contrato</strong> </p>
+        </div>
+
+        <form action="">
+            <div class="campo">
+                <label for="infocontrato"><strong>Contrato de:</strong></label>
+                <input type="text" name="infocontrato" id="infocontrato">
+            </div>
+
+            <div class="campo">
+                <label for="localizacao"><strong>Localização/Secretaria:</strong></label>
+                <input type="text" name="localizacao" id="localizacao">
+            </div>
+
+            <div class="campo">
+                <label for="nomeempresa"><strong>Empresa Contratada:</strong></label>
+                <input type="text" name="nomeempresa" id="nomeempresa"> 
+            </div>
+
+            <div class="campo">
+                <label for="datacriacao"><strong>Data de Criação:</strong></label>
+                <input type="date" name="datacriacao" id="datacriacao">
+            </div>
+
+            <fieldset class="grupo">
+
+                <div class="campo">
+                    <label for="datainicio"><strong>Data de inicio:</strong></label>
+                    <input type="date" name="datainicio" id="datainicio">
+                </div>
+
+                <div class="campo">
+                    <label for="datafinal"><strong>Data Final:</strong></label>
+                    <input type="date" name="datafinal" id="datafinal">
+                </div>
+
+            </fieldset>
+
+            <div class="campo">
+                <label for="endereco"><strong>Endereço:</strong></label>
+                <input type="text" name="endereco" id="endereco"> 
+            </div>
+
+            <div class="campo">
+                <label for="emai"><strong>Email:</strong></label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div class="campo">
+                <label for="contato"><strong>Contato:</strong></label>
+                <input type="text" name="contato" id="contato">
+            </div>
+
+            <div class="campo">
+                <label for="responsavelemp"><strong>Responsavel da Empresa:</strong></label>
+                <input type="text" name="responsavelemp" id="responsavelemp">
+            </div>
+
+            <div class="campo">
+                <label for="responsavelsec"><strong>Responsavel da Secretaria:</strong></label>
+                <input type="text" name="responsavelsec" id="responsavelsec">
+            </div>
+
+            <div class="campo">
+                <label for="responsavelcad"><strong>Responsavel Pelo Cadastro:</strong></label>
+                <input type="text" name="responsavelcad" id="responsavelcad">
+            </div>
+            
+            <div class="campo">
+                <label for=""><strong>Situação de Contrato:</strong></label>
+                <label for="">
+                    <input type="radio" name="status" value="ativo">Ativo
+                </label>
+                <label for="">
+                    <input type="radio" name="status" value="finalizado">Finalizado
+                </label>
+                <label for="">
+                    <input type="radio" name="status" value="cancelado">Cancelado
+                </label>
+            </div>
+
+            <button class="botao" type="submit">Enviar</button>
+
+        </form>
+
+
+
+    </body>
+</html>
